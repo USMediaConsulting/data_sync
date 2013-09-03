@@ -12,10 +12,10 @@ data_sync
 
  The remote endoint is the endpoint where the logs are pushed to.
  So you need to set the following parameters: 
- REMOTE_USER = 'user'
- REMOTE_HOST = 'remote_host'
- REMOTE_DIR  = '/tmp/backup'
- REMOTE_SSH_PORT = 40022
+- REMOTE_USER = 'user'
+- REMOTE_HOST = 'remote_host'
+- REMOTE_DIR  = '/tmp/backup'
+- REMOTE_SSH_PORT = 40022
 
  This will end up doing an rsync to user@remote_host:/tmp/backup 
  on port 40022
